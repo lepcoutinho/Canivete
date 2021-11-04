@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;400&display=swap");
+html {
+  padding: 0px;
+  height: 100%;
+}
+
+html a {
+  text-decoration: none;
+}
+
+html body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ff006a;
+  height: 100%;
+  width: 100%;
+}
+
+html body header {
+  width: 100%;
+  padding: 10px 20px;
+}
+
+html body header a {
+  font-family: 'Heebo', sans-serif;
+  font-size: 20pt;
+  text-transform: uppercase;
+  color: white;
+}
+
+html body section {
+  width: 90%;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html body section article {
+  height: 90px;
+  width: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+html body section article div.toggle {
+  background-color: white;
+  height: 30px;
+  width: 60px;
+  border-radius: 20px;
+  padding: 2px 4px 2px 4px;
+  -webkit-box-shadow: inset -2px -2px 5px 0px #aaaaaa;
+          box-shadow: inset -2px -2px 5px 0px #aaaaaa;
+}
+
+html body section article div.toggle span {
+  display: block;
+  height: 27px;
+  width: 27px;
+  background-color: #ee4c90;
+  border-radius: 50%;
+  margin-top: 1.5px;
+  -webkit-box-shadow: -1px -1px 1px 0px #757575;
+          box-shadow: -1px -1px 1px 0px #757575;
+}
+
+html body section article div.navBurger {
+  height: 30px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+html body section article div.navBurger span {
+  display: block;
+  background-color: white;
+  width: 40px;
+  height: 4px;
+  border-radius: 15px;
+}
+
+html body p {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
